@@ -6,7 +6,7 @@ def reverse_each_word (sentence)
   array.each do |word|
     reversed_arr.push(word.reverse)
   end
-  return reversed_arr.join(" ")
+  reversed_arr.join(" ")
 =begin
   array = sentence.split
   array.map do |word|
