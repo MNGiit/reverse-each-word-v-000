@@ -10,12 +10,19 @@ def reverse_each_word (sentence)
   reversed_arr.join(" ")
 =end
 
+
+
+
   array = sentence.split
   reversed_arr = []
   array.collect do |word|
     reversed_arr.push(word.reverse)
   end
-  array.join(" ")
+  reversed_arr.join(" ")
+  
+  
+  
+  
 =begin
   array = sentence.split
   array.map do |word|
