@@ -11,8 +11,10 @@ def reverse_each_word (sentence)
 =end
 
   array = sentence.split
-  array.map |word|
-
+  array.map do |word|
+    word.reverse
+  end
+  array.join(" ")
 =begin
   array = sentence.split
   array.map do |word|
